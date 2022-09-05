@@ -7,7 +7,7 @@ Visit our site for more details: https://aerialwaste.org/
 ## Repository content
 
 This repository contains a serie of utilities scripts to handle the dataset:
-  - Link to dataset: Download images from Zenodo, put the training.json and testing.json containing the images medatadata in the root of this repository and put all images into an images folder.
+  - Link to dataset: Download images from Zenodo[https://zenodo.org/record/7034382], put the training.json and testing.json containing the images medatadata in the root of this repository and put all images into an images folder.
   - Statistics: to plot statistics on the dataset.
   - Visualizer: to visualize the images with its correspondent classes and segmentation masks. Download and unzip image folder, and install ODIN visualizer tool https://github.com/rnt-pmi/odin). 
   -  DataLoader: to conver the JSON to tensors containing the image classes and the image itself. Download and unzip image folder before its use.
