@@ -39,10 +39,15 @@ Creative Commons CC BY licensing scheme (see LICENSE). The usage of Google Image
 
 ## Cite us
 ```
-@misc{torres2022dataset,
-  title={AerialWaste: A dataset for illegal landfill discovery in aerial images},
+@article{torres2023aerialwaste,
+  title={AerialWaste dataset for landfill discovery in aerial and satellite images},
   author={Torres, Rocio Nahime and Fraternali, Piero},
-  year={2022},
+  journal={Scientific Data},
+  volume={10},
+  number={1},
+  pages={63},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
 }
 ```
 Visit our site for more details: https://aerialwaste.org/
