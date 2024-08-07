@@ -7,7 +7,7 @@ Visit our site for more details: https://aerialwaste.org/
 ## Repository content
 
 This repository contains a serie of utilities scripts to handle the dataset:
-  - Link to dataset: Download images from Zenodo[https://zenodo.org/record/7034382], put the training.json and testing.json containing the images medatadata in the root of this repository and put all images into an images folder.
+  - Link to dataset: Download images from Zenodo[https://zenodo.org/record/7034381], put the `training.json` and `testing.json` containing the images medatadata in the root of this repository and put all images into an `images` folder.
   - Statistics: to plot statistics on the dataset.
   - Visualizer: to visualize the images with its correspondent classes and segmentation masks. Download and unzip image folder, and install ODIN visualizer tool https://github.com/rnt-pmi/odin). 
   -  DataLoader: to conver the JSON to tensors containing the image classes and the image itself. Download and unzip image folder before its use.
@@ -15,19 +15,23 @@ This repository contains a serie of utilities scripts to handle the dataset:
 
 
 #### JSON
-For each image the follwing information is provided:
+For each image the following information is provided:
 ```
-{"id": --> the id of the iamge
-"img_source": --> "GE", "AGEA" or "WV3"
-"is_candidate_location":--> if this is a candidate location (1-positive) or not (0-negative)
+{
+  "id": --> the id of the image
+  "file_name": --> name of the image file in the image folder
+  "is_candidate_location":--> if this is a candidate location (1-positive) or not (0-negative)
 
-"evidence": --> evidence perceived by the analyst at annotation time (from 0 to 3) [only if candidate location]
-"severity": --> severity perceived by the analyst at annotation time (from 0 to 3) [only if candidate location]
+  "evidence": --> evidence perceived by the analyst at annotation time (from 0 to 3) [only if candidate location]
+  "severity": --> severity perceived by the analyst at annotation time (from 0 to 3) [only if candidate location]
 
-"site type": --> type of site (e.g. production area) [only if candidate location]
+  "width": --> image width in pixels
+  "height": --> image height in pixels
 
-"is_valid_fine_grain": --> if this image was analyzed to observe the Waste Objects or Storage modes present
-"categories": --> which of the different Waste Objects or Storage Modes are present on the images [only if is_valid_fine_grained]
+  "site_type": --> type of site (e.g. production area) [only if candidate location]
+
+  "is_valid_fine_grain": --> if this image was analyzed to observe the Waste Objects or Storage modes present
+  "categories": --> which of the different Waste Objects or Storage Modes are present on the images [only if is_valid_fine_grained]
 }
 ```
 
