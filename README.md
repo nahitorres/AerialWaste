@@ -1,16 +1,16 @@
 # AerialWaste dataset
 
-AerialWaste is a dataset for the discovery of illegal landfill. Illegal landfills from aerial images present a visual heterogeneity of the scenes in which waste dumps appear and present a diverse nature of the objects that compose a waste deposit. When observed from above waste dumps appear as complex arrangements of objects of different shapes, sizes, and orientation.
+AerialWaste is a dataset for the discovery of illegal landfills. Illegal landfills from aerial images present a visual heterogeneity of the scenes in which waste dumps appear and present a diverse nature of the objects that compose a waste deposit. When observed from above, waste dumps appear as complex arrangements of objects of different shapes, sizes, and orientation.
 
 Visit our site for more details: https://aerialwaste.org/
 
 ## Repository content
 
-This repository contains a serie of utilities scripts to handle the dataset:
+This repository contains a series of utility scripts to handle the dataset:
   - Link to dataset: Download images from Zenodo[https://zenodo.org/record/7034381], put the `training.json` and `testing.json` containing the images medatadata in the root of this repository and put all images into an `images` folder.
   - Statistics: to plot statistics on the dataset.
   - Visualizer: to visualize the images with its correspondent classes and segmentation masks. Download and unzip image folder, and install ODIN visualizer tool https://github.com/rnt-pmi/odin). 
-  -  DataLoader: to conver the JSON to tensors containing the image classes and the image itself. Download and unzip image folder before its use.
+  -  DataLoader: to convert the JSON to tensors containing the image classes and the image itself. Download and unzip image folder before its use.
 
 
 
