@@ -54,5 +54,8 @@ Creative Commons CC BY licensing scheme (see LICENSE). The usage of Google Image
   publisher={Nature Publishing Group UK London}
 }
 ```
+
 Visit our site for more details: https://aerialwaste.org/
 
+## Acknowledgements
+This work was partially funded by the European Union’s Horizon Europe project PERIVALLON – Protecting the EuRopean terrItory from organised enVironmentAl crime through inteLLigent threat detectiON tools, under grant agreement no. 101073952.
