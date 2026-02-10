@@ -39,7 +39,7 @@ Segmentation masks are present in the JSON following the COCO format.
 
 
 ## License
-Creative Commons CC BY licensing scheme (see LICENSE). The usage of Google Imagery must respect the Google Earth terms and conditions [https://about.google/brand-resource-center/products-and-services/geo-guidelines/].
+Creative Commons CC BY-NC-ND licensing scheme (see LICENSE). The usage of Google Imagery must respect the Google Earth terms and conditions [https://about.google/brand-resource-center/products-and-services/geo-guidelines/].
 
 ## Cite us
 ```
